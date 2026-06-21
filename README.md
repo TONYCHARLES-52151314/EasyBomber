@@ -33,3 +33,9 @@ GameObject
 - `GameObject`：玩家、怪物、炸弹和爆炸的共同基类。
 - 使用 `unique_ptr` 自动管理动态对象，避免手动释放内存。
 - `assets/`：游戏图片资源，构建后自动复制到程序输出目录。
+
+## 项目资料
+
+- [课程项目报告（PDF）](1030425220_张子昂_EasyBomber.pdf)
+- [课程项目报告（Word）](1030425220_张子昂_EasyBomber.docx)
+- [项目讲解视频](https://www.bilibili.com/video/BV1mBjx6cExe/)
