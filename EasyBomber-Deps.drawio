@@ -1,0 +1,29 @@
+﻿<mxfile host="app.diagrams.net">
+  <diagram id="EasyBomber-Deps" name="文件依赖结构图">
+    <mxGraphModel dx="960" dy="960" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1">
+      <root>
+        <mxCell id="0"/>
+        <mxCell id="1" parent="0"/>
+        <mxCell id="n_types" value="Types.hpp" style="ellipse;whiteSpace=wrap;html=1;strokeWidth=3;fontSize=16;" vertex="1" parent="1"><mxGeometry x="380" y="20" width="130" height="80" as="geometry"/></mxCell>
+        <mxCell id="n_gameobject" value="GameObject.hpp" style="ellipse;whiteSpace=wrap;html=1;strokeWidth=3;fontSize=16;" vertex="1" parent="1"><mxGeometry x="200" y="200" width="150" height="70" as="geometry"/></mxCell>
+        <mxCell id="n_map" value="Map.hpp" style="ellipse;whiteSpace=wrap;html=1;strokeWidth=3;fontSize=16;" vertex="1" parent="1"><mxGeometry x="560" y="200" width="100" height="70" as="geometry"/></mxCell>
+        <mxCell id="n_player" value="Player.hpp" style="ellipse;whiteSpace=wrap;html=1;strokeWidth=3;fontSize=16;" vertex="1" parent="1"><mxGeometry x="100" y="390" width="120" height="70" as="geometry"/></mxCell>
+        <mxCell id="n_monster" value="Monster.hpp" style="ellipse;whiteSpace=wrap;html=1;strokeWidth=3;fontSize=16;" vertex="1" parent="1"><mxGeometry x="250" y="390" width="120" height="70" as="geometry"/></mxCell>
+        <mxCell id="n_bomb" value="Bomb.hpp" style="ellipse;whiteSpace=wrap;html=1;strokeWidth=3;fontSize=16;" vertex="1" parent="1"><mxGeometry x="400" y="390" width="110" height="70" as="geometry"/></mxCell>
+        <mxCell id="n_explosion" value="Explosion.hpp" style="ellipse;whiteSpace=wrap;html=1;strokeWidth=3;fontSize=16;" vertex="1" parent="1"><mxGeometry x="540" y="390" width="130" height="70" as="geometry"/></mxCell>
+        <mxCell id="n_game" value="Game.hpp" style="ellipse;whiteSpace=wrap;html=1;strokeWidth=3;fontSize=16;" vertex="1" parent="1"><mxGeometry x="385" y="580" width="120" height="70" as="geometry"/></mxCell>
+        <mxCell id="n_main" value="main" style="ellipse;whiteSpace=wrap;html=1;strokeWidth=3;fontSize=16;" vertex="1" parent="1"><mxGeometry x="420" y="770" width="80" height="70" as="geometry"/></mxCell>
+        <mxCell id="e_types_go" source="n_types" target="n_gameobject" style="endArrow=block;html=1;strokeWidth=2;" edge="1" parent="1"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="e_types_map" source="n_types" target="n_map" style="endArrow=block;html=1;strokeWidth=2;" edge="1" parent="1"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="e_go_player" source="n_gameobject" target="n_player" style="endArrow=block;html=1;strokeWidth=2;" edge="1" parent="1"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="e_go_monster" source="n_gameobject" target="n_monster" style="endArrow=block;html=1;strokeWidth=2;" edge="1" parent="1"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="e_go_bomb" source="n_gameobject" target="n_bomb" style="endArrow=block;html=1;strokeWidth=2;" edge="1" parent="1"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="e_go_explosion" source="n_gameobject" target="n_explosion" style="endArrow=block;html=1;strokeWidth=2;" edge="1" parent="1"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="e_map_game" source="n_map" target="n_game" style="endArrow=block;html=1;strokeWidth=2;" edge="1" parent="1"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="e_go_game" source="n_gameobject" target="n_game" style="endArrow=block;html=1;strokeWidth=2;" edge="1" parent="1"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="e_player_game" source="n_player" target="n_game" style="endArrow=block;html=1;strokeWidth=2;" edge="1" parent="1"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="e_game_main" source="n_game" target="n_main" style="endArrow=block;html=1;strokeWidth=2;" edge="1" parent="1"><mxGeometry relative="1" as="geometry"/></mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
